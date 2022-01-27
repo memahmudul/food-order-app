@@ -1,0 +1,38 @@
+.contact{
+    padding-top: 11rem;
+    min-height: 600px;
+}
+
+.contact .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.contact .row .image{
+    flex: 1 1 45rem;
+}
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    background: #fff;
+    padding : 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    border: 2px solid green;
+
+}
+.contact .row form .box{
+    display: block;
+    padding: 1.5rem;
+    border: 2px solid green;
+    margin: 2rem 0;
+    border-radius: .5rem;
+    width: 100%;
+    font-size: 1.6rem;
+    text-transform: none;
+}

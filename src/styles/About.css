@@ -1,0 +1,32 @@
+.about{
+    padding-top: 12rem;
+}
+
+.about .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.about .row .image{
+    flex : 1 1 45rem;
+}
+.about .row .content{
+    flex : 1 1 45rem;
+}
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content h3{
+    font-size: 4.5rem;
+    width: 56%;
+
+}
+.about .row .content p{
+    font-size: 1.7rem;
+
+    padding: 2rem 0;
+    width: 75%;
+
+}

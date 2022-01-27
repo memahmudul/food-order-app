@@ -1,0 +1,23 @@
+
+
+
+.home{
+padding-top: 12rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .content{
+    text-align: center;
+}
+
+.home .content h1{
+    font-size: 6rem;
+    color: black;
+}
+.home .content h3{
+    color: black;
+    font-size: 2.5rem;
+    padding: 3rem 0;
+}

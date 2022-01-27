@@ -1,0 +1,24 @@
+.footer{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    flex-flow: column;
+}
+
+
+
+.footer .icon-container .icon{
+
+font-size: 4em;
+color: black;
+background: white;
+margin: 2rem;
+
+}
+.footer  h3{
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+}
